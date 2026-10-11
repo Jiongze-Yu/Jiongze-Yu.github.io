@@ -1,0 +1,85 @@
+# Fields:
+#   video / poster : looping muted teaser clip (shown instead of `image` when present)
+#   image          : teaser figure
+#   stars          : GitHub "owner/repo" -> live star badge (only for repos worth showing)
+#   notes          : red highlight text;  extra: free HTML shown below the buttons
+# Advisors are marked with <sup>&dagger;</sup>; my name is wrapped in <strong>.
+
+main:
+
+  - title: "SparkVSR: Interactive Video Super-Resolution via Sparse Keyframe Propagation"
+    authors: <strong>Jiongze Yu</strong>, Xiangbo Gao, Pooja Verlani, Akshay Gadde, Yilin Wang, Balu Adsumilli, Zhengzhong Tu<sup>&dagger;</sup>
+    conference_short: ECCV
+    conference: European Conference on Computer Vision <strong>(ECCV)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2603.16864
+    page: https://sparkvsr.github.io/
+    code: https://github.com/taco-group/SparkVSR
+    hf: https://huggingface.co/JiongzeYu/SparkVSR
+    comfyui: https://github.com/taco-group/SparkVSR/tree/main/ComfyUI-Spark
+    demo: https://sparkvsr.github.io/videos/demo.mp4
+    stars: taco-group/SparkVSR
+    video: ./assets/teasers/sparkvsr.mp4
+    poster: ./assets/teasers/sparkvsr.jpg
+    extra: <i class="fab fa-youtube" style="color:#e62117"></i> In collaboration with <strong>YouTube, Google</strong>. Official ComfyUI workflow and community deployments on RunningHub &amp; CNAPS.ai.
+
+  - title: "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing"
+    authors: Xinghao Chen, Xiangbo Gao, <strong>Jiongze Yu</strong>, Yuheng Wu, Zhengzhong Tu<sup>&dagger;</sup>
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2026.
+    pdf: https://arxiv.org/abs/2609.40356
+    page: https://vitex-bench.github.io/
+    code: https://github.com/taco-group/ViTeX-Bench
+    dataset: https://huggingface.co/datasets/ViTeX-Bench/ViTeX-Dataset
+    leaderboard: https://vitex-bench.github.io/ViTeX-Bench-Leaderboard/
+    video: ./assets/teasers/vitex.mp4
+    poster: ./assets/teasers/vitex.jpg
+
+  - title: "The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics"
+    authors: Xiangbo Gao, Mingyang Wu, Siyuan Yang, <strong>Jiongze Yu</strong>, Pardis Taghavi, Fangzhou Lin, Zhengzhong Tu<sup>&dagger;</sup>
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2603.14375
+    page: https://xiangbogaobarry.github.io/Pulse-of-Motion/
+    code: https://github.com/taco-group/Pulse-of-Motion
+    stars: taco-group/Pulse-of-Motion
+    video: ./assets/teasers/pulse.mp4
+    poster: ./assets/teasers/pulse.jpg
+
+  - title: "Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation"
+    authors: Xiangbo Gao, Siyuan Yang, Ping He, Mingyang Wu, Yuheng Wu, Yushen Zuo, <strong>Jiongze Yu</strong>, Ryan Cui, Hongyuan Hua, Devin Ma, Xiao Jin, Yubo Ruan, Qing Yin, Jie Yang, Zhengzhong Tu<sup>&dagger;</sup>
+    conference_short: arXiv
+    conference: Technical report, arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2607.26694
+    page: https://www.visko.ai/blog/introducing-live-models
+    video: ./assets/teasers/orbis.mp4
+    poster: ./assets/teasers/orbis.jpg
+
+  - title: "VEFX-Bench: A Holistic Benchmark for Generic Video Editing and Visual Effects"
+    authors: Xiangbo Gao, Sicong Jiang, Bangya Liu, Xinghao Chen, Minglai Yang, Siyuan Yang, Mingyang Wu, <strong>Jiongze Yu</strong>, Qi Zheng, Haozhi Wang, Jiayi Zhang, Jie Yang, Zihan Wang, Qing Yin, Zhengzhong Tu<sup>&dagger;</sup>
+    conference_short: arXiv
+    conference: arXiv preprint, 2026.
+    pdf: https://arxiv.org/abs/2604.16272
+    page: https://xiangbogaobarry.github.io/VEFX-Bench/
+    code: https://github.com/Visko-Platform/VEFX-Bench
+    dataset: https://huggingface.co/datasets/xiangbog/VEFX-Bench
+    stars: Visko-Platform/VEFX-Bench
+    video: ./assets/teasers/vefx.mp4
+    poster: ./assets/teasers/vefx.jpg
+
+  - title: "A Prior Guided Wavelet-Spatial Dual Attention Transformer Framework for Heavy Rain Image Restoration"
+    authors: Ronghui Zhang<sup>&dagger;</sup>, <strong>Jiongze Yu</strong>, Junzhou Chen<sup>&dagger;</sup>, Guofa Li, Liang Lin, Danwei Wang
+    conference_short: TMM
+    conference: IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10415525
+    code: https://github.com/Jiongze-Yu/WSDformer
+    image: ./assets/teasers/wsdformer.jpg
+    nickname: WSDformer
+
+  - title: "Real-Time Smoke Detection With Split Top-K Transformer and Adaptive Dark Channel Prior in Foggy Environments"
+    authors: <strong>Jiongze Yu</strong>, Heqiang Huang, Yuhang Ma, Yueying Wu, Junzhou Chen<sup>&dagger;</sup>, Ronghui Zhang<sup>&dagger;</sup>, Xuemiao Xu, Zhihan Lv, Guodong Yin
+    conference_short: IoT-J
+    conference: IEEE Internet of Things Journal <strong>(IoT-J)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10745603
+    code: https://github.com/Jiongze-Yu/STKformer
+    image: ./assets/teasers/stkformer.jpg
+    nickname: STKformer
