@@ -173,17 +173,6 @@ p, li, .pub-title, .pub-authors, .pub-venue, .pub-extra { text-wrap: pretty; }
 .pub-note { margin-top: 6px; color: #8b1a1a; }
 .pub-extra { margin-top: 8px; font-size: 14px; }
 
-/* ---------- education ---------- */
-
-.edu-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
-  margin-bottom: 14px;
-}
-.edu-date { white-space: nowrap; color: var(--muted); font-size: 15px; }
-
 /* ---------- footer ---------- */
 
 .footer {
@@ -209,9 +198,8 @@ p, li, .pub-title, .pub-authors, .pub-venue, .pub-extra { text-wrap: pretty; }
   .content h2 { font-size: 1.7rem; margin-top: 36px; }
   .pub { grid-template-columns: 1fr; gap: 12px; }
   .pub-media video, .pub-media img.fig { width: 100%; height: auto; aspect-ratio: 16 / 9; }
-  .edu-row { flex-direction: column; gap: 0; }
 }
 
-@media (max-width: 480px) {
-  .nav-links a:nth-child(4), .nav-links a:nth-child(5) { display: none; }
+@media (max-width: 440px) {
+  .nav-links a:nth-child(4) { display: none; }
 }

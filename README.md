@@ -7,10 +7,11 @@ Live at <https://jiongze-yu.github.io/>. A single-page Jekyll site served by Git
 | What | Where |
 |---|---|
 | Name, email, links, avatar | `_config.yml` |
-| About / Interests / News / Service / Education | `index.md` |
+| About / Interests / News / Service | `index.md` |
 | Publications | `_data/publications.yml` (see the field list at the top) |
 | Teaser videos and figures | `assets/teasers/` |
 | Styles | `assets/css/main.css` |
+| Tab icon | `assets/img/favicon.svg` (`favicon.png` and `apple-touch-icon.png` are renders of it) |
 
 Teaser clips are short (5–20 s), muted, 640 px wide H.264, e.g.
 
