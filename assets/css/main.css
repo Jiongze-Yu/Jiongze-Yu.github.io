@@ -95,6 +95,7 @@ p, li, .pub-title, .pub-authors, .pub-venue, .pub-extra { text-wrap: pretty; }
 .hero-links .sep { color: var(--muted); }
 .hero-links i { color: #000; }
 .hero-links .ai-google-scholar-square { color: #4285f4; }
+.hero-links .fa-linkedin { color: #0a66c2; }
 
 /* ---------- sections ---------- */
 
