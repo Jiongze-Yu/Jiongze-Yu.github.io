@@ -11,8 +11,8 @@ My research centers on **high-resolution, high-quality, and efficient** video ge
 ## Research Interests {#interests}
 
 - **Video Generation & World Models:** real-time, interactive and long video generation
-- **Video Editing:** instruction-based editing, visual effects, scene text editing
 - **Low-Level Computer Vision:** video super-resolution, image/video restoration
+- **Video Editing:** instruction-based editing, visual effects, scene text editing
 - **Multimodal LLMs & AI+X:** MLLM-based evaluation, agentic systems, and real-world applications
 
 ## News {#news}
